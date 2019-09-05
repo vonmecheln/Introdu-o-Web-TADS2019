@@ -1,6 +1,6 @@
 #cabecalho {
-  height: 400px;
-  background-color: #e74c3c;
+  height: 500px;
+  background-image: url("img/topo.jpg");
 }
 
 #rodape {
@@ -12,4 +12,16 @@
 #rodape p {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+
+#corpo {
+  width: 80%;
+  background-color: #f1c40f;
+  height: 50px;
+}
+
+#bloco1 {
+  width: 70%;
+  background-color:
 }
