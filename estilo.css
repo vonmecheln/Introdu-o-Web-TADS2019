@@ -1,0 +1,15 @@
+#cabecalho {
+  height: 400px;
+  background-color: #e74c3c;
+}
+
+#rodape {
+  background-color: #3498db;
+  color: white;
+  padding-left: 120px;
+}
+
+#rodape p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
