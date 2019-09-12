@@ -16,12 +16,29 @@
 
 
 #corpo {
-  width: 80%;
-  background-color: #f1c40f;
-  height: 50px;
+  background-color: #95a5a6;
+  height: 150px;
 }
 
 #bloco1 {
+  float: left;
   width: 70%;
-  background-color:
+  background-color: #8e44ad;
+  height: 300px;
+}
+
+#bloco2 {
+  float: left;
+  width: 30%;
+  background-color:#2ecc71;
+  height: 70px;
+}
+
+
+#bloco3 {
+  float: left;
+  width: 60%;
+  background-color: #e74c3c;
+  height: 100px;
+  margin-left: 20%;
 }
