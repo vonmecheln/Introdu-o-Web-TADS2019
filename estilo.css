@@ -4,6 +4,8 @@
 }
 
 #rodape {
+  float: left;
+  width: 100%;
   background-color: #3498db;
   color: white;
   padding-left: 120px;
@@ -17,28 +19,57 @@
 
 #corpo {
   background-color: #95a5a6;
-  height: 150px;
 }
 
 #bloco1 {
   float: left;
   width: 70%;
   background-color: #8e44ad;
-  height: 300px;
+  height: 1px;
 }
 
 #bloco2 {
   float: left;
   width: 30%;
-  background-color:#2ecc71;
-  height: 70px;
+  background-color:#fafafa;
 }
 
+.ranking {
+  font-family: Sans-Serif;
+}
 
-#bloco3 {
+.ranking h1 {
+  color: #7d7d8a;
+  font-size: 17px;
+}
+
+.ranking h2 {
+  color: #f14991;
+  font-size: 12px;
+}
+
+.ranking-bloc {
+  background-color: #ffffff;
+}
+
+.ranking-bloc img {
+  border-radius: 50%;
+  height: 55px;
+}
+
+.ranking-card {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+}
+
+.ranking-card div{
   float: left;
-  width: 60%;
-  background-color: #e74c3c;
-  height: 100px;
-  margin-left: 20%;
+}
+
+.ranking-card-avatar{
+  width: 30%;
+}
+
+.ranking-card-description{
+  width: 70%;
 }
