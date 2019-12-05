@@ -1,6 +1,7 @@
 #cabecalho {
   height: 500px;
   background-image: url("img/topo.jpg");
+  display: none;
 }
 
 #rodape {
@@ -9,6 +10,7 @@
   background-color: #3498db;
   color: white;
   padding-left: 120px;
+  display: none;
 }
 
 #rodape p {
@@ -18,7 +20,7 @@
 
 
 #corpo {
-  background-color: #95a5a6;
+  background-color: #fafafa;
 }
 
 #bloco1 {
@@ -26,12 +28,17 @@
   width: 70%;
   background-color: #8e44ad;
   height: 1px;
+  display: none;
 }
 
 #bloco2 {
   float: left;
   width: 30%;
   background-color:#fafafa;
+}
+
+.clear {
+  clear: both;
 }
 
 .ranking {
@@ -43,14 +50,17 @@
   font-size: 17px;
 }
 
-.ranking h2 {
-  color: #f14991;
-  font-size: 12px;
+.ranking hr {
+  color: #dcdcdc;
 }
+
 
 .ranking-bloc {
   background-color: #ffffff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
 }
+
 
 .ranking-bloc img {
   border-radius: 50%;
@@ -58,11 +68,26 @@
 }
 
 .ranking-card {
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
-  border-radius: 2px;
+
+}
+
+.ranking-card-nome {
+  color: #574c4c;
+  font-size: 12px;
+}
+
+.ranking-card-email {
+  color: #ec407a;
+  font-size: 11px;
+}
+
+.ranking-card-telefone {
+  color: #212121;
+  font-size: 11px;
 }
 
 .ranking-card div{
+  /* display: inline-block; */
   float: left;
 }
 
